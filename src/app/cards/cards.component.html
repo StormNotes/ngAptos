@@ -1,0 +1,34 @@
+ <div class='container'>
+   <div class="ui two stackable cards">
+        <div  *ngFor = "let card of cards" [card] = 'card' class="card">
+          <div class="image">
+            <img src="{{card.img}}">
+          </div>
+          <div class="content">
+            <div class="header">{{card.name}}</div>
+            <div class="meta">
+              <a>{{card.ambientes}}</a>
+            </div>
+            <div class="description">
+              {{card.desc}} <br> <a href=""><strong>Leer mas</strong></a>
+            </div>
+          </div>
+          <div class="extra content aptoInfo">
+            <span class="left floated">
+             <i class="tags">Expensas: <br>  {{card.expensas}} ARS</i>
+            </span>
+            <span>
+              <i class="dollar sign icon"></i>
+              Alquiler: <br> {{card.alquiler}} ARS
+            </span> <br>
+            <span>
+                <i class="phone icon">
+                 Contacto: {{card.contacto}}   
+                </i>
+            </span>
+          </div>
+        </div>   
+    </div>
+
+ </div>
+ 

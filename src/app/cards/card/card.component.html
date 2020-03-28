@@ -1,0 +1,32 @@
+<div class="column">
+  <div class="ui link cards">
+      <div class="card">
+        <div class="image">
+          <img src="../../assets/images/card1.jpg">
+        </div>
+        <div class="content">
+          <div class="header">{{card.name}}</div>
+          <div class="meta">
+            <a>{{card.ambientes}}</a>
+          </div>
+          <div class="description">
+            {{card.desc}} <br> <a href=""><strong>Leer mas</strong></a>
+          </div>
+        </div>
+        <div class="extra content aptoInfo">
+          <span class="left floated">
+           <i class="tags">Expensas: <br>  {{card.expensas}} ARS</i>
+          </span>
+          <span>
+            <i class="dollar sign icon"></i>
+            Alquiler: <br> {{card.alquiler}} ARS
+          </span> <br>
+          <span>
+              <i class="phone icon">
+               Contacto: {{card.contacto}}   
+              </i>
+          </span>
+        </div>
+      </div>   
+  </div>
+</div>
