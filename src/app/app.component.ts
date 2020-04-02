@@ -12,4 +12,8 @@ export class AppComponent {
    consult: 'CONSULTANT ',
    name: 'UX'
   };
+
+  changeToLight() {
+    
+  }
 }
