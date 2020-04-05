@@ -6,8 +6,10 @@
     height: 9%;
     background: $dark-background;
     a{
-        width: 20%;
+        background-color: gray;
+        width: 8%;
         color: $light-color;
+        transition:0.9s all ease;
     }:hover{
         color:#3e84bd !important;
     }
@@ -47,19 +49,27 @@
 
 .container-two{
    /* filter: brightness(50%); */
-    background: url('../assets/images/home1.jpg');
+    background: url('../assets/images/Fotoram.io.jpg');
     width: 100%;
     margin: 0 auto;
-    height: 50%;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    filter: blur(0px);
-  -webkit-filter: blur(0px);
+/*     filter: blur(2px);
+  -webkit-filter: blur(2px); */
 
-    h2{
-     color: rgb(255, 255, 255);
-     padding: 80px 0px;
+    h1{
+        z-index: 20px;
+        font-size:30pt;
+        text-align: center;
+        padding-top:190px;
+        color:#2c2c2c;
+    }
+
+    .button{
+        width: 100%;
+        margin: 20px auto;
     }
 }
 
