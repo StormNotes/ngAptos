@@ -6,6 +6,7 @@ import { CardsComponent } from './cards/cards.component';
 import { CardComponent } from './cards/card/card.component';
 import { CommentsComponent } from './cards/comments/comments.component';
 import { ExpensasComponent } from './app/expensas/expensas.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ExpensasComponent } from './app/expensas/expensas.component';
     CardsComponent,
     CardComponent,
     CommentsComponent,
-    ExpensasComponent
+    ExpensasComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule

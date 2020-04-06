@@ -1,0 +1,33 @@
+<form class="ui form">
+    <h4 class="ui dividing header">Completá el formulario y acercanos tus consultas para que podamos ayudarte</h4>
+    <div class="field">
+      <label>Nombre completo y apellido</label>
+      <div class="two fields">
+        <div class="field">
+          <input type="text" name="shipping[first-name]" placeholder="Nombre">
+        </div>
+        <div class="field">
+          <input type="text" name="shipping[last-name]" placeholder="Apellido">
+        </div>
+      </div>
+      <label>Numero de celular y correo electronico</label>
+      <div class="two fields">
+        <div class="field">
+          <input type="number" placeholder="0110000000">
+        </div>
+        <div class="field">
+          <input type="email"  placeholder="alquilar@gmail.com">
+        </div>
+      </div>
+      <textarea spellcheck="false" placeholder="Consulta"></textarea>
+    </div>
+     <div class="ui segment">
+      <div class="field">
+        <div class="ui toggle checkbox">
+          <input type="checkbox" name="gift" tabindex="0" class="hidden">
+          <label>Deseas recibir notificaciones semanales de futuros alquileres?</label>
+        </div>
+      </div>
+    </div>
+    <div class="ui button" tabindex="0"><a href="mailto:">Enviar consulta</a></div>
+  </form>
